@@ -1,13 +1,10 @@
-body{
-    
-}
-
 #banner{
     width: 100%;
 }
 
 .principal{
     background: #CCCCCC;
+    padding: 20px;
 }
 
 h1{
@@ -28,6 +25,7 @@ em strong{
 
 .diferenciales{
     background: #FFFFFF;
+    padding: 30px;
 }
 
 h2{
@@ -36,4 +34,15 @@ h2{
 
 .items{
     font-style: italic;
+}
+
+ul{
+    display: inline-block; /* ul es un elemento en bloque, usando inline-block hacemos que se comporte como un elemento en linea */
+    vertical-align: top; /* Para alinear verticalmente el texto, en este caso, se requiere que esté arriba entonces seleccionamos top*/
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
 }
