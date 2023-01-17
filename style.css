@@ -115,3 +115,27 @@ form label, form p{
 .checkbox{
     margin: 20px 0;
 }
+
+/* JERARQUIA DE SELECTORES */
+/* estilos en línea > ID > class > etiqueta */
+form p{ /* form p > p */
+    color: blue;
+}
+
+p{
+    color: red;
+}
+
+.test{ /* .test > form p */
+    color: yellow;
+}
+
+p.test{ /* p.test > .test */
+    color: orange;
+}
+
+#test{ /* #test > p.test */
+    color: pink;
+}
+
+/* Estilo en linea en p en html: style="color:purple" > #test */
