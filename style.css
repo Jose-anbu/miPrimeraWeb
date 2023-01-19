@@ -134,3 +134,17 @@ form label, form legend{
     transform: scale(1.2); /* scale(1.2): aumenta el tamaño un 20%, rotate(70deg): rota 70grados */
 }
 
+table{
+    margin: 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
