@@ -158,6 +158,7 @@ td, th{
     text-align: center;
     font-size: 2em; /* 2 veces el tamaño que tiene por defecto el navegador */
     margin: 0 0 1em;
+    clear: left; /* especifica si un elemento puede estar al lado de elementos flotantes. Evitará que los elementos a partir de h2 Diferenciales se coloquen a la par de la imagen */
 }
 
 .principal p{
@@ -170,6 +171,12 @@ td, th{
 
 .principal em{
     font-style: italic;
+}
+
+.utensillos{
+    width: 120px;
+    float: left; /* ubica un elemento a la izquierda o derecha, permite que los elementos de texto y en linea aparezcan a su costado */
+    margin: 0 20px 20px 0;
 }
 
 .imagenDiferenciales{
