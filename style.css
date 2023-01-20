@@ -167,22 +167,6 @@ td, th{
     clear: left; /* especifica si un elemento puede estar al lado de elementos flotantes. Evitará que los elementos a partir de h2 Diferenciales se coloquen a la par de la imagen */
 }
 
-.titulo-principal:first-letter{ /* pseudo-elemento: aplica el estilo solo a la primera letra */
-    font-weight: bold;
-}
-
-.titulo-principal:before{ /* Coloca un elemento al inicio */
-    content: '[';
-}
-
-.titulo-principal:after{ /* Coloca un elemento al final */
-    content: ']';
-}
-
-p:first-line{ /* Aplica el estilo solo a la primera línea del párrafo */
-    font-style: italic;
-}
-
 .principal p{
     margin: 0 0 1em;
 }
@@ -235,6 +219,10 @@ p:first-line{ /* Aplica el estilo solo a la primera línea del párrafo */
 
 .items{
     line-height: 1.5; /* Espacio entre lineas */
+}
+
+.items:before{
+    content: '★'; /* pseudo-elementos usando before */
 }
 
 .items:first-child{ /* pseudo-classes: de todos los items selecciona el 1er item */
