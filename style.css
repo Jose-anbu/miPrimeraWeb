@@ -153,6 +153,22 @@ td, th{
     width: 100%;
 }
 
+main > p{ /* indica que se aplicará solo a los hijos directos de main */
+    background: red;
+}
+
+img + p{ /* aplicará el estilo al 1er párrafo que viene después de img */
+    background: yellow;
+}
+
+img ~ p{ /* aplicará a todos los p que vienen después de img */
+    background: green;
+}
+
+.principal p:not(#mision){ /* Aplica a todos los p menos al que tiene id='mision' */
+    background: orange;
+}
+
 .principal{
     padding: 3em 0;
     background: #FEFEFE;
