@@ -153,22 +153,6 @@ td, th{
     width: 100%;
 }
 
-main > p{ /* indica que se aplicará solo a los hijos directos de main */
-    background: red;
-}
-
-img + p{ /* aplicará el estilo al 1er párrafo que viene después de img */
-    background: yellow;
-}
-
-img ~ p{ /* aplicará a todos los p que vienen después de img */
-    background: green;
-}
-
-.principal p:not(#mision){ /* Aplica a todos los p menos al que tiene id='mision' */
-    background: orange;
-}
-
 .principal{
     padding: 3em 0;
     background: #FEFEFE;
@@ -196,7 +180,8 @@ img ~ p{ /* aplicará a todos los p que vienen después de img */
 }
 
 .utensillos{
-    width: 120px;
+    /* width: 120px; */
+    width: calc(40% - (25px * 4));
     float: left; /* ubica un elemento a la izquierda o derecha, permite que los elementos de texto y en linea aparezcan a su costado */
     margin: 0 20px 20px 0;
 }
