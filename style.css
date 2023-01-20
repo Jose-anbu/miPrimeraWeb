@@ -207,6 +207,10 @@ td, th{
     line-height: 1.5; /* Espacio entre lineas */
 }
 
+.items:first-child{ /* pseudo-classes: de todos los items selecciona el 1er item */
+    font-weight: bold;
+}
+
 .imagen-diferenciales{
     width: 60%;
 }
