@@ -94,11 +94,6 @@ footer{
     margin: 20px;
 }
 
-main{
-    width: 940px;
-    margin: 0 auto;
-}
-
 form{
     margin: 40px 0;
 }
@@ -158,6 +153,13 @@ td, th{
     width: 100%;
 }
 
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal{
     text-align: center;
     font-size: 2em; /* 2 veces el tamaño que tiene por defecto el navegador */
@@ -185,11 +187,23 @@ td, th{
 
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE,#888888);
+    /* background: linear-gradient(90deg,orange 50%,blue,red,black); (angulo,color1 porcentaje que quiero que ocupe, color2 ..., color3 ..., etc...) */
 }
 
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
 }
 
 .contenido-diferenciales{
