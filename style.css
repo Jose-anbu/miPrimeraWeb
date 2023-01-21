@@ -245,7 +245,25 @@ td, th{
 }
 
 @media screen and (max-width: 480px){ /* aplicará el estilo para todos los dispositivos con un ancho máximo de 480px */
-    body{
-        background: red;
+    h1{
+        text-align: center;
     }
+
+    nav{
+        position: static;
+        text-align: center;
+    }
+
+    nav a{
+        font-size: 1em;
+    }
+
+   .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+    width: auto;
+   }
+
+   .lista-diferenciales, .imagen-diferenciales{
+    width: 100%;
+    margin: 2em 0;
+   }
 }
