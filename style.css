@@ -204,6 +204,7 @@ td, th{
 .diferenciales{
     padding: 3em 0;
     background: #888888;
+    box-shadow: inset 0 0 30px red; /* sombra hacia adentro */
 }
 
 .contenido-diferenciales{
@@ -232,6 +233,7 @@ td, th{
 .imagen-diferenciales{
     width: 60%;
     transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000, -10px -10px yellow, -15px 10px rgba(50, 50, 50, 0.5); /* horizontal vertical difuminado expansion color */
 }
 
 .imagen-diferenciales:hover{
