@@ -180,8 +180,7 @@ td, th{
 }
 
 .utensillos{
-    /* width: 120px; */
-    width: calc(40% - (25px * 4));
+    width: 120px;
     float: left; /* ubica un elemento a la izquierda o derecha, permite que los elementos de texto y en linea aparezcan a su costado */
     margin: 0 20px 20px 0;
 }
@@ -232,6 +231,11 @@ td, th{
 
 .imagen-diferenciales{
     width: 60%;
+    transition: 400ms;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
 }
 
 .video{
